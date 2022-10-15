@@ -11,7 +11,7 @@ function createMenuItem(name, price, type) {
 };
 
 function addIngredients(food, ingredients) {
-  if(ingredients.includes(food) === false) {
+  if(!ingredients.includes(food)) {
   ingredients.push(food)
   }
 }
